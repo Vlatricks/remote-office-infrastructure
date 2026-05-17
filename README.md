@@ -73,7 +73,7 @@
 
 #### 💎 Артефакты блока
 * **Исторические данные метрик за несколько дней (Диапазон 2d):**
-![Исторические метрики](screenshots/prometheus_historical_metrics.png)
+![Исторические метрики](screenshots/prometheus_historical_metric.png)
 
 * **Активные и настроенные алерты в веб-интерфейсе:**
 ![Алерты Prometheus](screenshots/prometheus_alerts.png)
