@@ -72,6 +72,8 @@
 4. При падении любого сервиса или превышении лимитов по ресурсам (CPU, RAM, Over-connections) срабатывают правила фильтрации и Alertmanager формирует оповещение.
 
 #### 💎 Артефакты блока
-* Статус службы Prometheus: `active (running)`.
-* Статус службы OpenVPN Exporter: `active (running)`.
-* Результат проверки доступности целей (`curl -s ...?query=up`): значение `"value":[...,"1"]` для всех целевых хостов.
+* **Исторические данные метрик за несколько дней (Диапазон 2d):**
+![Исторические метрики](screenshots/prometheus_historical_metrics.png)
+
+* **Активные и настроенные алерты в веб-интерфейсе:**
+![Алерты Prometheus](screenshots/prometheus_alerts.png)
