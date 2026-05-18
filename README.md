@@ -47,7 +47,7 @@
 
 ### 💎 Артефакты блока
 * Статус службы `openvpn-server@server`: **`active (running)`** (Initialization Sequence Completed).
-* ![vpn подключен](screenshots/prometheus_vpn_connected.png)
+* ![vpn подключен](screenshots/vpn_connected.png)
 
 ---
 
