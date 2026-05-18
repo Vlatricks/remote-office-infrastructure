@@ -48,7 +48,7 @@
 ### 💎 Артефакты блока
 * Статус службы `openvpn-server@server`: **`active (running)`** (Initialization Sequence Completed).
 * **Клиент успешно подключен к впн серверу:**
-* ![vpn подключен](screenshots/vpn_connected.png)
+  ![vpn подключен](screenshots/vpn_connected.png)
 
 ---
 
