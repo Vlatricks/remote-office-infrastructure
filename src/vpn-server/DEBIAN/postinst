@@ -9,5 +9,3 @@ systemctl start openvpn-server@server
 systemctl enable --now prometheus-node-exporter
 systemctl restart prometheus-node-exporter
 
-systemctl enable --now openvpn-exporter
-systemctl restart openvpn-exporter

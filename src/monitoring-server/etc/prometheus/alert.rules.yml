@@ -20,6 +20,16 @@ groups:
       summary: Host out of memory (instance {{ $labels.instance }})
       description: Node memory is filling up (< 10% left)\n  VALUE = {{ $value }}
 
+  - alert: BackupAgeTooOld
+    expr: (time() - node_filestat_mtime_seconds{file="/var/backups/vpn/backup_success.flag"}) > 93600
+    for: 5m
+    labels:
+      severity: critical
+    annotations:
+      summary: "Critical error: VPN backup is too old"
+      description: "Backup dosent update more than 26 hours. Check backup_vpn.sh and cron."
+
+
 - name: openvpn_alerts
   rules:
     - alert: OpenVPNServerDown
@@ -36,4 +46,4 @@ groups:
       labels:
         severity: warning
       annotations:
-        summary: "Too many OpenVPN clients connected"
+        summary: "Too many OpenVPN clients connected" 

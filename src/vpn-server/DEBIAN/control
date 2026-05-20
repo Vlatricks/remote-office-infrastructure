@@ -1,7 +1,7 @@
 Package: setup-vpn
 Version: 1.0
 Priority: optional
-Depends: openvpn, firewalld, easy-rsa, prometheus-node-exporter, prometheus-openvpn-exporter
+Depends: openvpn, firewalld, easy-rsa, prometheus-node-exporter
 Architecture: all
 Maintainer: Leon Vlasov <vlatricks@vk.com>
 Description: Install vpn-server
