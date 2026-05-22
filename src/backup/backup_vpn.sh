@@ -1,7 +1,7 @@
 #!/bin/bash
 # backup directory
 BACKUP_DIR="/var/backups/vpn"
-DATA_TO_BACKUP="/etc/openvpn /home/yc-user/clients/keys"
+DATA_TO_BACKUP="/etc/openvpn"
 
 # file name with date
 FILENAME="vpn_backup_$(date +%Y-%m-%d_%H%M%S).tar.gz"
